@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.taskmanager.ui.MainController"
+            prefWidth="900" prefHeight="600"
+            styleClass="root-pane">
+
+    <!-- ── Obere Toolbar ──────────────────────────────────────────────────── -->
+    <top>
+        <ToolBar styleClass="top-toolbar">
+            <Label text="Aufgabenverwaltung" styleClass="app-title"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <TextField fx:id="searchField" promptText="Suche..." prefWidth="200"/>
+            <Label text="Sortieren:"/>
+            <ComboBox fx:id="sortComboBox" prefWidth="120"/>
+        </ToolBar>
+    </top>
+
+    <!-- ── Hauptbereich ───────────────────────────────────────────────────── -->
+    <center>
+        <SplitPane dividerPositions="0.25">
+
+            <!-- Linke Seite: Projektliste -->
+            <VBox styleClass="sidebar">
+                <Label text="Projekte" styleClass="section-header"/>
+                <ListView fx:id="projectListView" VBox.vgrow="ALWAYS"/>
+                <HBox spacing="6">
+                    <Button text="+ Projekt" onAction="#handleNewTask" styleClass="btn-add"/>
+                </HBox>
+            </VBox>
+
+            <!-- Rechte Seite: Aufgabentabelle -->
+            <VBox>
+                <HBox styleClass="task-toolbar" spacing="8">
+                    <Label fx:id="progressLabel" text="Fortschritt: —"/>
+                    <Region HBox.hgrow="ALWAYS"/>
+                    <Button text="+ Aufgabe"       onAction="#handleNewTask"   styleClass="btn-add"/>
+                    <Button text="✓ Erledigt"       onAction="#handleMarkDone"  styleClass="btn-done"/>
+                    <Button text="✕ Löschen"        onAction="#handleDeleteTask" styleClass="btn-delete"/>
+                </HBox>
+
+                <TableView fx:id="taskTableView" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="colTitle"    text="Aufgabe"    prefWidth="280"/>
+                        <TableColumn fx:id="colPriority" text="Priorität"  prefWidth="110"/>
+                        <TableColumn fx:id="colStatus"   text="Status"     prefWidth="150"/>
+                        <TableColumn fx:id="colDeadline" text="Frist"      prefWidth="120"/>
+                    </columns>
+                    <placeholder><Label text="Kein Projekt ausgewählt."/></placeholder>
+                </TableView>
+
+                <Label fx:id="statsLabel" styleClass="stats-label" text=""/>
+            </VBox>
+
+        </SplitPane>
+    </center>
+
+</BorderPane>
