@@ -1,0 +1,80 @@
+/* ── Allgemein ─────────────────────────────────────────────────────────── */
+.root-pane {
+    -fx-background-color: #F5F5F5;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+/* ── Toolbar ───────────────────────────────────────────────────────────── */
+.top-toolbar {
+    -fx-background-color: #2C3E50;
+    -fx-padding: 8 16 8 16;
+}
+
+.app-title {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* ── Sidebar (Projektliste) ────────────────────────────────────────────── */
+.sidebar {
+    -fx-background-color: #ECEFF1;
+    -fx-padding: 8;
+    -fx-spacing: 8;
+}
+
+.section-header {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2C3E50;
+    -fx-padding: 4 0 4 4;
+}
+
+/* ── Aufgaben-Toolbar ──────────────────────────────────────────────────── */
+.task-toolbar {
+    -fx-padding: 8;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* ── Buttons ───────────────────────────────────────────────────────────── */
+.btn-add {
+    -fx-background-color: #27AE60;
+    -fx-text-fill: white;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.btn-add:hover { -fx-background-color: #219A52; }
+
+.btn-done {
+    -fx-background-color: #2980B9;
+    -fx-text-fill: white;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.btn-done:hover { -fx-background-color: #2471A3; }
+
+.btn-delete {
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: white;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.btn-delete:hover { -fx-background-color: #CB4335; }
+
+/* ── Tabelle ───────────────────────────────────────────────────────────── */
+.table-row-cell:selected {
+    -fx-background-color: #D6EAF8;
+}
+
+/* ── Statistik-Label ───────────────────────────────────────────────────── */
+.stats-label {
+    -fx-padding: 6 12;
+    -fx-text-fill: #7F8C8D;
+    -fx-font-size: 11px;
+}
