@@ -30,9 +30,13 @@ TaskManager ist eine professionelle Desktop-Anwendung, entwickelt mit <b>Java</b
 Das Ziel dieses Projekts war es nicht nur, ein funktionales Aufgabenverwaltungssystem zu entwickeln, sondern ebenfalls folgende Fähigkeiten zu demonstrieren:
 
 ✅ Saubere Softwarearchitektur
+
 ✅ Objektorientierte Programmierung
+
 ✅ Datenbankintegration
+
 ✅ Wartbare Codestruktur
+
 ✅ Praxisnahe Softwareentwicklungsprinzipien
 
 Dieses Projekt entstand im Rahmen meiner persönlichen Weiterentwicklung im Bereich Softwareentwicklung und zeigt meine Motivation für eine Ausbildung als:
@@ -41,15 +45,15 @@ Dieses Projekt entstand im Rahmen meiner persönlichen Weiterentwicklung im Bere
 
 ---
 
-# ✨ Funktionen
+#  Funktionen
 
-## 📁 Projektmanagement
+##  Projektmanagement
 
 * Projekte erstellen und organisieren
 * Dynamische Fortschrittsanzeige
 * Strukturierte Projektübersicht
 
-## ✅ Aufgabenverwaltung
+##  Aufgabenverwaltung
 
 * Aufgaben erstellen, bearbeiten und löschen
 * Aufgaben als erledigt markieren
@@ -58,7 +62,7 @@ Dieses Projekt entstand im Rahmen meiner persönlichen Weiterentwicklung im Bere
 * Deadline-Verwaltung
 * Erkennung überfälliger Aufgaben
 
-## 🔍 Suche & Sortierung
+##  Suche & Sortierung
 
 * Echtzeit-Aufgabensuche
 * Sortierung nach:
@@ -68,14 +72,14 @@ Dieses Projekt entstand im Rahmen meiner persönlichen Weiterentwicklung im Bere
   * Status
   * Titel
 
-## 💾 Datenbankintegration
+##  Datenbankintegration
 
 * SQLite-Datenbank
 * Permanente Datenspeicherung
 * Automatisches Datenbankmanagement
 * Kein externer Server erforderlich
 
-## 🎨 Moderne Desktop-Oberfläche
+##  Moderne Desktop-Oberfläche
 
 * JavaFX Benutzeroberfläche
 * Responsives Layout
@@ -84,7 +88,7 @@ Dieses Projekt entstand im Rahmen meiner persönlichen Weiterentwicklung im Bere
 
 ---
 
-# 🏗️ Softwarearchitektur
+#  Softwarearchitektur
 
 <div align="center">
 
@@ -112,7 +116,7 @@ und orientiert sich an professionellen Entwicklungsstandards moderner Softwarepr
 
 ---
 
-# 🛠️ Verwendete Technologien
+#  Verwendete Technologien
 
 <table>
 <tr>
@@ -154,7 +158,7 @@ und orientiert sich an professionellen Entwicklungsstandards moderner Softwarepr
 
 ---
 
-# 🧠 Objektorientierte Konzepte
+#  Objektorientierte Konzepte
 
 Dieses Projekt demonstriert den praktischen Einsatz von:
 
@@ -177,7 +181,7 @@ Searchable
 
 ---
 
-# 📂 Projektstruktur
+#  Projektstruktur
 
 ```text
 src/main/java/com/taskmanager
@@ -210,7 +214,7 @@ src/main/java/com/taskmanager
 
 ---
 
-# 🎯 Architekturentscheidungen
+#  Architekturentscheidungen
 
 ## Warum JavaFX?
 
@@ -226,9 +230,9 @@ Eine klare Architektur verbessert die Organisation des Codes und orientiert sich
 
 ---
 
-# 📈 Beispiel-Funktionen
+#  Beispiel-Funktionen
 
-## 🔥 Aufgabenpriorisierung
+##  Aufgabenpriorisierung
 
 Aufgaben werden visuell nach Priorität kategorisiert:
 
@@ -236,17 +240,17 @@ Aufgaben werden visuell nach Priorität kategorisiert:
 * 🟡 Mittlere Priorität
 * 🟢 Niedrige Priorität
 
-## ⏰ Deadline-Überwachung
+##  Deadline-Überwachung
 
 Überfällige Aufgaben werden automatisch erkannt und hervorgehoben.
 
-## 📊 Fortschrittsverfolgung
+##  Fortschrittsverfolgung
 
 Der Projektfortschritt wird dynamisch anhand abgeschlossener Aufgaben berechnet.
 
 ---
 
-# 🚀 Projekt starten
+#  Projekt starten
 
 ## Voraussetzungen
 
@@ -270,7 +274,7 @@ mvn javafx:run
 
 ---
 
-# 📚 Was ich gelernt habe
+#  Was ich gelernt habe
 
 Während dieses Projekts konnte ich meine Kenntnisse erweitern in:
 
@@ -286,7 +290,7 @@ Während dieses Projekts konnte ich meine Kenntnisse erweitern in:
 
 ---
 
-# 🔮 Geplante Erweiterungen
+#  Geplante Erweiterungen
 
 Geplante Funktionen für zukünftige Versionen:
 
@@ -301,7 +305,7 @@ Geplante Funktionen für zukünftige Versionen:
 
 ---
 
-# 🖼️ Screenshots
+#  Screenshots
 
 <div align="center">
 
@@ -316,7 +320,7 @@ Geplante Funktionen für zukünftige Versionen:
 
 ---
 
-# 💡 Motivation
+#  Motivation
 
 Dieses Projekt spiegelt meine Leidenschaft für Softwareentwicklung sowie meine Motivation wider, mich kontinuierlich als Entwickler weiterzuentwickeln.
 
@@ -326,16 +330,6 @@ Während der Entwicklung lag mein Fokus besonders auf:
 * wartbaren Strukturen
 * sauberen Softwaredesign-Prinzipien
 * der Entwicklung einer praxisnahen Anwendung
-
----
-
-# 🤝 Kontakt
-
-Falls Sie dieses Projekt im Rahmen meiner Ausbildungsbewerbung ansehen:
-
-Vielen Dank, dass Sie sich die Zeit nehmen, mein Projekt anzusehen.
-
-Ich bin hoch motiviert, meine Kenntnisse weiter auszubauen, praktische Erfahrungen zu sammeln und mich professionell in einem realen Entwicklungsumfeld weiterzuentwickeln.
 
 ---
 
