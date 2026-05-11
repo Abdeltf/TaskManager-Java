@@ -309,16 +309,10 @@ Geplante Funktionen für zukünftige Versionen:
 
 <div align="center">
 
-<i>Screenshots können hier später hinzugefügt werden.</i>
+<img width=60% height=60% alt="homepage" src="https://github.com/user-attachments/assets/bc6b84ee-6bdd-4732-9aa9-81f0dcaf9e4e" />
 
 </div>
 
-```text
-/docs/images/main-ui.png
-/docs/images/task-management.png
-```
-
----
 
 #  Motivation
 
